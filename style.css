@@ -21,7 +21,7 @@ width: 80px;
 height: 80px;
 }
 
-a{
+nav a{
     text-decoration: none;
     font-size: 30px;
     color: black;
@@ -35,7 +35,7 @@ a{
     border-radius: 100px;
     color: #fff;
 }
-a:hover{
+nav a:hover{
     background: orange;
     color: #fff;
     border-radius: 100px;
@@ -47,6 +47,14 @@ a:hover{
     border-radius: 50%;
     display: none;
 }
+
+
+.location-icon{
+    width: 20px;
+    height: 20px;
+}
+
+
 @media screen and ( max-width:900px){
     nav{
         padding: 10px;
@@ -73,4 +81,29 @@ a:hover{
     .show{
         display: block;
     }
+}
+
+.container{
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh; */
+  height: 80vh;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /* align-items: center; */
+  margin:  0 auto;
+
+}
+
+/* .container div{
+    width: 50%;
+} */
+
+.Images {
+   background-image: url(Images/Img1.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
